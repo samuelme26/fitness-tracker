@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "NPM_CONFIG_LOGLEVEL=info node server.js",
+  "install": "NPM_CONFIG_LOGLEVEL=info npm install",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
